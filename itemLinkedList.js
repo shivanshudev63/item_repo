@@ -1,18 +1,43 @@
 class Item {
-    constructor(itemName, float_price) {
-        this.itemName = itemName;
-        this.float_price = float_price;
-    }
+  constructor(itemName, price) {
+    this.itemName = itemName;
+    this.price = price;
+  }
 }
 
-class Operations {
-    display(data) {
-        console.log(data.itemName);
-        console.log(data.float_price);
-    }
+class Node {
+  constructor(item) {
+    this.item = item;
+    this.next = null;
+  }
 }
 
-const item = new Item("rice", 39);
-const operations = new Operations();
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
 
-operations.display(item);
+  append(item) {
+    const newNode = new Node(item);
+    if (!this.head) {
+      this.head = newNode;
+      return;
+    }
+
+    let current = this.head;
+    while (current.next) {
+      current = current.next;
+    }
+    current.next = newNode;
+  }
+
+  display() {
+    let current = this.head;
+    while (current) {
+      console.log(`Item Name: ${current.item.itemName}, Price: ${current.item.price}`);
+      current = current.next;
+    }
+  }
+}
+
+module.exports = { Item, LinkedList };
