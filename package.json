@@ -1,15 +1,14 @@
 {
-    "name": "linkedlist-app",
-    "version": "1.0.0",
-    "description": "A simple linked list application",
-    "main": "itemLinkedList.js",
-    "scripts": {
-      "test": "mocha"
-    },
-    "dependencies": {},
-    "devDependencies": {
-      "chai": "^4.3.6",
-      "mocha": "^10.2.0"
-    }
+  "name": "jenkinspipeline",
+  "version": "1.0.0",
+  "main": "itemLinkedList.js",
+  "scripts": {
+    "test": "mocha test.js"  
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^10.0.0"  
   }
-  
+}
