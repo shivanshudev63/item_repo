@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { Item, LinkedList } = require('../src/index');
+const { Item, LinkedList } = require('./itemLinkedList.js');
 
 describe('LinkedList', () => {
   it('should add an item to the linked list', () => {
