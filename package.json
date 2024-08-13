@@ -1,0 +1,15 @@
+{
+    "name": "linkedlist-app",
+    "version": "1.0.0",
+    "description": "A simple linked list application",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "chai": "^4.3.6",
+      "mocha": "^10.2.0"
+    }
+  }
+  
