@@ -4,7 +4,7 @@ class Item {
         this.price = price;
     }
 }
-
+#aloo
 class Node {
     constructor(item) {
         this.item = item;
