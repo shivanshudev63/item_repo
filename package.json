@@ -2,7 +2,7 @@
     "name": "linkedlist-app",
     "version": "1.0.0",
     "description": "A simple linked list application",
-    "main": "src/index.js",
+    "main": "itemLinkedList.js",
     "scripts": {
       "test": "mocha"
     },
