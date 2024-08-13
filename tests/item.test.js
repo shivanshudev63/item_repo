@@ -1,4 +1,4 @@
-const { Item, LinkedList } = require('./itemLinkedList.js'); 
+const { Item, LinkedList } = require('../itemLinkedList.js'); 
 
 describe('Item and LinkedList Tests', () => {
     let list;
